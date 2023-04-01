@@ -258,3 +258,33 @@ header>.container>.menu>ul a{
   }
 }
 /* end services */
+
+/* start portfolio */
+#portfolio{
+  padding: var(--section-padding) 0px;
+  background-color: var(--section-background);
+}
+#portfolio>.container{
+  margin-top: 50px ;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  gap: 50px;
+}
+#portfolio>.container .project{
+  background-color: white;
+}
+#portfolio>.container .project img{
+  width: 100%;
+}
+#portfolio>.container .project p{
+  line-height: var(--line-height);
+  color: var(--p-color);
+  padding: 20px;
+  margin: 0px;
+}
+#portfolio>.container .project h4{
+  margin-bottom: 0px;
+  padding-left: 20px;
+  font-size: 20px;
+}
+/* end portfolio */
