@@ -19,6 +19,32 @@ body{
   margin-left: auto;
   margin-right: auto;
 }
+.cont{
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+}
+.cont>p{
+  color:#eee;
+  font-size: 100px;
+  font-weight: 800;
+  margin: 0px;
+}
+.cont>span{
+  position: relative;
+  bottom: 30px;
+  color: #727272;
+  font-size: 25px;
+}
+@media (max-width: 768px) {
+  .cont>p {
+    font-size: 60px;
+  }
+  .cont>span{
+    font-size: 20px;
+    bottom: 20px;
+  }
+}
 /* Small */
 @media (min-width: 768px) {
   .container {
