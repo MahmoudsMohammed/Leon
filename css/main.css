@@ -425,3 +425,17 @@ header > .container > .menu > ul a {
   }
 }
 /* end contact */
+
+/* start footer */
+.footer{
+  text-align: center;
+  padding: 10px;
+  background-color: var(--secondary-color);
+  color: white;
+  font-size: 20px;
+}
+.footer span{
+  font-weight: 800;
+  color: var(--main-color);
+}
+/* end footer */
