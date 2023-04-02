@@ -338,6 +338,7 @@ header > .container > .menu > ul a {
   }
   #about > .container > .img{
     margin: 0px;
+    margin-bottom: 50px;
     position: relative;
   }
   #about > .container > .img::after{
@@ -378,3 +379,49 @@ header > .container > .menu > ul a {
 /* end about */
 
 /* start contact */
+#contact{
+  padding: var(--section-padding) 0px;
+  background-color: var(--section-background);
+}
+#contact>.content{
+  max-width: 100%;
+  margin-top: 50px;
+  text-align: center;
+}
+#contact>.content p:first-of-type{
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--secondary-color);
+}
+#contact>.content a{
+  text-decoration: none;
+  color: var(--main-color);
+  font-size: 15px;
+  font-weight: 800;
+  display: block;
+}
+#contact>.content p:last-of-type{
+  display: inline-block;
+  margin-right: 10px;
+}
+#contact>.content i{
+  margin-right: 10px;
+  transition: var(--main-duration);
+  color: var(--secondary-color);
+}
+#contact>.content i:first-of-type:hover{
+  color: red;
+}
+#contact>.content i:nth-of-type(2):hover{
+  color: rgb(66, 103, 178);
+}
+#contact>.content i:last-of-type:hover{
+  color: rgb(29, 161, 242);
+}
+@media (min-width:768px){
+  #contact>.content p:first-of-type ,
+  #contact>.content a{
+    font-size: 30px;
+  }
+}
+/* end contact */
