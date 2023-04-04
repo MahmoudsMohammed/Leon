@@ -24,11 +24,8 @@ Users should be able to:
 
 ### Screenshot
 
-- Desktop view
+- The page in the Desktop view
 ![](media/desktop.png)
-
-- Mobile view
-![](media//modile.png)
 
 ### Links
 
