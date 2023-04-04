@@ -24,12 +24,15 @@ Users should be able to:
 
 ### Screenshot
 
-Desktop view
+- Desktop view
 ![](media/desktop.png)
+
+- Mobile view
+![](media//modile.png)
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://mahmoudsmohammed.github.io/Project_one/)
+- Live Site URL: [Leon](https://mahmoudsmohammed.github.io/Project_one/)
 
 ## My process
 
