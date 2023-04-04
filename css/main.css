@@ -13,6 +13,7 @@ body {
   --main-duration: 0.5s;
   --line-height: 1.6;
   --p-color: #727272;
+  scroll-behavior: smooth;
 }
 .container {
   padding-left: 20px;
