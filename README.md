@@ -5,20 +5,17 @@ my first landing page using HTML and CSS
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
+  - [The page features](#the-page-features)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
-### The challenge
+### The page features
 
 Users should be able to:
 
@@ -27,17 +24,18 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop view](media/desktop.png)
+Desktop view
+![](media/desktop.png)
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://mahmoudsmohammed.github.io/Project_one/)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
+- HTML5 
 - CSS custom properties
 - Flexbox
 - CSS Grid
@@ -45,47 +43,32 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
+- How structure the project files
+- Using Git and Github 
+- Responsive Design and how to use a container
+- Use class to creak my own framework
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.cont {
+  width: fit-content;
+  margin: auto;
+  text-align: center;
 }
 ```
-
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+- Use CSS variables
+```css
+:root {
+  --main-color: #10cab7;
+  --secondary-color: #2c4755;
+  --section-padding: 60px;
+  --section-background: #f6f6f6;
+  --main-duration: 0.5s;
+  --line-height: 1.6;
+  --p-color: #727272;
 }
 ```
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Linkedin - [Mahmoud Sayed](https://www.linkedin.com/in/mahmoud-sayed-b85536217/)
+- Frontend Mentor - [@MahmoudsMohammed](https://www.frontendmentor.io/profile/MahmoudsMohammed)
+- Codewars - [@MahmoudsMohammed](https://www.codewars.com/users/MahmoudsMohammed)
