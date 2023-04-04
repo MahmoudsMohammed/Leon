@@ -25,6 +25,7 @@ Users should be able to:
 ### Screenshot
 
 - The page in the Desktop view
+
 ![](media/desktop.png)
 
 ### Links
